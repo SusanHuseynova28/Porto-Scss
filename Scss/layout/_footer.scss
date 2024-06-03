@@ -1,0 +1,103 @@
+@use"../utils/mixins" as m;
+@use"../utils/variables" as v;
+.Line{
+    width: 100%;
+    border: 1px solid #262626 ;
+    margin-top: 7%;
+}
+.footer-top{
+    display: flex;
+    @include m.Flexible($justify:space-around,$item:center);
+   padding: 20px;
+    .img-footer-main{
+       display: flex;
+       flex-direction: column;
+       gap:10px;
+       .img-footer{
+        width: 80px;
+        height: 80px;
+       }
+        .ppp-footer{
+            
+            color: white;
+            width: 400px;
+        }
+    }
+    .web-page{
+        display: flex;
+        gap:20px;
+        margin-top: 20px;
+        .Twitter{
+           width: 50px;
+           height: 40px;
+           border-radius: 50%;
+           color: white;
+           background-color: #262626;
+           border: 1px solid #262626;
+        }
+        .Linkedin{
+            width: 50px;
+           height: 40px;
+           border-radius: 50%;
+           color: white;
+           background-color: #262626;
+           border: 1px solid #262626;
+        }
+        .Instagram{
+            width: 50px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            background-color: #262626;
+            border: 1px solid #262626;
+        }
+        .github{
+            width: 50px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            background-color: #262626;
+            border: 1px solid #262626;
+        }
+        .facebook{
+            width: 50px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            background-color: #262626;
+            border: 1px solid #262626;
+        }
+    }
+}
+.word-footer{
+    color: white;
+    margin-top: 15px;
+    .ppp-word28{
+        margin-bottom: 20px;
+    }
+    .word-footer1{
+        display: flex;
+        gap:20px;
+       
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.word-footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 25px;
+    
+    .ppp-word-footer1{
+        color: white;
+        font-size: 15px;
+        
+    }
+    .ppp-word-footer2{
+        color: white;
+        font-size: 15px;
+    }
+}

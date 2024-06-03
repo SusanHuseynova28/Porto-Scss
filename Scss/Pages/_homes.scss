@@ -1,0 +1,100 @@
+@use"../utils/mixins" as m;
+
+.Container2{
+  display: flex;
+  @include m.Flexible($justify:space-around,$item:center);
+    margin-top: 30px;
+    color:white;
+    
+    .Word{
+        display: flex;
+        gap:20px;
+        font-size:small;
+          .h3{
+            display: flex;
+            margin-top: 10px;
+            gap:25px;
+          }
+    }
+    .Icon{
+        display: flex;
+        gap:25px;
+       
+     .Word2{
+      display: flex;
+      @include m.Flexible($direction:row);
+        margin-top: 20px;
+        gap:20px;
+        font-size: small;
+     }
+    }
+    .btn2{
+        padding: 20px;
+        width: 220px;
+        font-weight: bolder;
+        color:white;
+        border-radius: 25px;
+        background-image: linear-gradient(to right,#215DEE,#B61CFF);
+        font-size: 15px;
+        
+    }
+    }
+.Container3{
+  display: flex;
+  @include m.Flexible($justify:center,$item:center);
+    flex-direction: column;
+    gap:20px;
+    color:white;
+    margin-top:8%;
+    .Word3{
+        font-size: 60px;
+        font-weight: bolder;
+        
+}
+     
+     .h11{
+        font-size: 60px;
+        font-weight: bolder;
+        
+
+   
+     }
+    
+     .Word5{
+        font-size:20px;
+     }
+     .Word6{
+        font-size:20px;
+     }
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .btn3{
+        padding: 25px;
+        width: 220px;
+        font-weight: bolder;
+        color:white;
+        border-radius: 30px;
+        background-image: linear-gradient(to right,#215DEE,#B61CFF);
+        font-size: 15px;
+
+        
+}
+  .Container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    font-weight: bolder;
+    color: white;
+  }
+
+
+    
+
+   
+  

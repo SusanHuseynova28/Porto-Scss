@@ -1,0 +1,106 @@
+@use"../utils/mixins" as m;
+@use"../utils/variables" as v;
+.Container7{
+    font-size: 30px;
+    color:white;
+    display: flex;
+    @include m.Flexible($justify:center,$item:center);
+    margin-top: 8%;
+}
+.common-image{
+    display: flex;
+    @include m.Flexible($justify:center,$item:center,$gap:20px);
+   margin-top: 30px;
+   
+
+.Tag-image{
+    display: flex;
+    @include m.Flexible($justify:center,$item:center,$direction:row);
+    border: 1px solid rgb(60, 59, 59);
+    background-color: #262626;
+    width: 280px;
+    height: 90px;
+    border-radius: 30px;
+    
+    
+
+    .image5{
+        width: 250px;
+        height: 80px;
+        display: flex;
+        gap:20px;
+        background-color: #262626;
+        .image-btn{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        .tag-info{
+            color: white;
+            display: flex;
+            background-color: #262626;
+            flex-direction: column;
+            gap:10px;
+            .ppp1{
+                font-size: 30px;
+                background-color: #262626;
+            }
+            .ppp2{
+                background-color: #262626;
+            }
+        }
+    }
+   
+}
+}
+.common-image2{
+    display: flex;
+    @include m.Flexible($justify:center,$item:center);
+    margin-top: 30px;
+    gap:20px;
+    .image6{
+        width: 220px;
+        height: 80px;
+        display: flex;
+        @include m.Flexible($justify:center,$item:center);
+        gap:20px;
+        background-color: #262626;
+        border-radius: 30px;
+        .image-btn1{
+            width: 70px;
+            height: 70px;
+           border-radius: 50%;
+        }
+    }
+        .tag-info1{
+            color: white;
+            background-color: #262626;
+            display: flex;
+            @include m.Flexible($direction:column,$gap:10px);
+            .ppp3{
+                font-size: 20px;
+                background-color: #262626;
+                
+            }
+            
+            .ppp4{
+                background-color: #262626;
+            }
+        }
+}    
+.buttons-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    .btn-card{
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right,#215DEE,#B61CFF);
+   
+    width: 180px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+}
